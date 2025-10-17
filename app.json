@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Vylet",
+    "slug": "frontendViajes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/vyleticono.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "permissions": [
+      "LOCATION",
+      "CAMERA",
+      "READ_EXTERNAL_STORAGE",
+      "WRITE_EXTERNAL_STORAGE",
+      "ACCESS_FINE_LOCATION"
+    ],
+    "splash": {
+      "image": "./assets/vyletsplash.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Tu ubicación se usa para mostrar lugares cercanos"
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptiveIcon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ferchos56.pruebasvylet",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBtBy3lYHr_3LRqxM5JVOya2pRFMGG5OEY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/vyleticono.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79cf9dab-e46b-43c2-8ec6-968b670abf36"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
